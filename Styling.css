@@ -99,13 +99,9 @@ background-color: #9DC88D;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*Styling relative nav buttons*/
-.buttons {
-	color: #f1e3dd;
-	font-weight: bold;
-	font-size: 28px;
-	margin-right: 30px;
-	text-decoration: none
+
+.navbar .icon {
+  display:none;
 }
    /*formating for responsive*/
 .cartsection {width:100%; background-color: #4D774E; 
@@ -130,7 +126,7 @@ background-color: #9DC88D;
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #667292; /* Set a background color */
+    background-color: #9DC88D; /* Set a background color */
     color: #f1e3dd; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 20px; /* Some padding */
@@ -171,8 +167,16 @@ background-color: #9DC88D;
 	    text-align: left;
 	}
     .cartsection {width:100%; display: flex;
-        flex-direction: column; max-height: 600px}
+        flex-direction: column; }
         .carttext {width: 100%; float: none;}
       
         .cartimg {width: 100%; height: auto; float: none; padding: 5px 5px 5px 5px}
       }
+      footer {text-align: center;/* aligns text to the center of the page */
+        font-size: 14pt;
+         padding: 10px; /* adding padding to the content bock */
+        background-color: #164A41;
+        color: white; 
+        clear: both;/* clears both sides of the block from floating blocks */
+        }
+
