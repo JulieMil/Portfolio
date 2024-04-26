@@ -60,20 +60,7 @@ Dropdown navbar learnt from:https://www.w3schools.com/howto/howto_css_dropdown_n
 .navbar a.active {
 background-color: #9DC88D;
 }
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-.dropdown .dropbtn {
-  font-size: 20px;  
-  border: none;
-  outline: none;
-  color: #f1e3dd;
-  padding: 15px 30px;
-  background-color: #164A41;
-  margin: 0;
-  overflow: hidden;
-}
+
 .navbar a:hover {
   background-color: #9DC88D;
 }
@@ -141,7 +128,20 @@ background-color: #9DC88D;
   .top-show{
     display:block;
   }
-
+  .contactbut:link, .contactbut:visited { /* contact us here button css, taken from w3schools and from my previous web design project*/
+    background-color: #667292;
+  
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .contactbut:hover, .contactbut:active {
+    background-color: #f1e3dd;
+    color: black;
+  }
   @media screen and (max-width: 962px) { 
     .navbar a:not(:first-child), .dropdown .dropbtn {display: none;}
 	.navbar a.icon {
